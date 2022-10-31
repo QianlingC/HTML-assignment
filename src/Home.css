@@ -1,0 +1,47 @@
+.leftimage {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.bluecurl {
+  z-index: 0;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.study {
+  z-index: 1;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 180px;
+  height: 60%;
+}
+
+.righttext {
+  padding-top: 120px;
+  padding-left: 700px;
+  padding-right: 150px;
+}
+
+.text-give {
+  color: orange;
+}
+
+.text-child {
+  color: white;
+  font-size: 70px;
+}
+
+.text-help {
+  color: white;
+  font-size: 20px;
+}
+
+.donate {
+  background-color: lightblue;
+  color: white;
+  padding: 20px 70px;
+  font-size: 20px;
+  border-radius: 30px;
+}
