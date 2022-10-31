@@ -1,9 +1,8 @@
 .navbar {
-  padding: 20px;
-  position: fixed;
+  padding: 10px;
+  position: relative;
   height: 60px;
   width: 100%;
-  z-index: 0;
 }
 .navbar-logo {
   float: left;

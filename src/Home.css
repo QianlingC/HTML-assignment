@@ -1,25 +1,28 @@
 .leftimage {
-  width: 50%;
-  padding-top: 50px;
+  margin-right: 200px;
 }
 
 .bluecurl {
   z-index: 0;
   position: absolute;
-  margin-top: 200px;
-  margin-left: 200px;
+  left: 0;
+  top: 0;
+  padding-left: 170px;
+  padding-top: 200px;
 }
 
 .study {
   z-index: 1;
-  position: absolute;
-  margin-top: 70px;
-  margin-left: 180px;
   height: 60%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 150px;
+  padding-top: 120px;
 }
 
 .righttext {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-left: 700px;
   padding-right: 150px;
 }
@@ -44,4 +47,104 @@
   padding: 20px 70px;
   font-size: 20px;
   border-radius: 30px;
+}
+.home-center {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+}
+
+.image-stats {
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+}
+.dots {
+  z-index: 0;
+  position: absolute;
+  margin: 20px;
+  padding-top: 140px;
+  padding-left: 380px;
+}
+
+.bigcurve {
+  z-index: 1;
+  position: absolute;
+  margin: 20px;
+  padding-top: 40px;
+  padding-left: 120px;
+  height: 55%;
+  width: 30%;
+}
+.smile {
+  z-index: 2;
+  position: absolute;
+  margin: 20px;
+  padding-top: 60px;
+  padding-left: 170px;
+  height: 60%;
+}
+
+.circle-text {
+  background-color: orange;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 520px;
+  margin-top: 320px;
+  z-index: 3;
+  position: absolute;
+}
+
+.circle-text h3 {
+  color: white;
+  text-align: center;
+  font-size: 250%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+.line {
+  border-bottom: 3px solid white;
+  padding-top: 80px;
+  width: 50%;
+  margin-left: 40px;
+}
+.circle-text p {
+  color: white;
+  text-align: center;
+  font-size: 110%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.about {
+  flex: 1;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+.about > img {
+  height: 7%;
+  width: 7%;
+  padding-right: 20px;
+}
+.about > span {
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.about h1 {
+  font-size: 250%;
 }
