@@ -11,6 +11,10 @@ import holdhands from "./assets/images/about-9.png";
 import pencil from "./assets/images/about-7.png";
 import together from "./assets/images/about-8.png";
 import money from "./assets/images/about-6.png";
+import boxmoney from "./assets/images/feature-1.png";
+import giveheart from "./assets/images/feature-2.png";
+import givemoney from "./assets/images/feature-3.png";
+import hat from "./assets/images/feature-4.png";
 
 import Navbar from "./components/Navbar";
 
@@ -54,36 +58,66 @@ class Home extends Component {
             </div>
           </div>
           <div className="about">
-            <p style={{ color: "orange" }}>ABOUT AELPA</p>
-            <h1>Aelpa Make an education charity donation today</h1>
-            <p>
+            <span style={{ color: "orange" }}>ABOUT AELPA</span>
+            <br></br>
+            <span className="title-explain">
+              Aelpa Make an education charity donation today
+            </span>
+            <br></br>
+            <span>
               Growing up in poverty, children face many challenges: hunger and
               health problems, limited access to education and medical
               services.Growing up in poverty children face many
-            </p>
-            <br></br>
+            </span>
             <hr></hr>
-
-            <br></br>
             <img src={pencil} className="pencil-bullet" alt="pencil" />
             <span>20,000 poor children education and empowered</span>
-            <br></br>
             <br></br>
             <img src={together} className="together-bullet" alt="together" />
             <span>42,000 children lifted from poverty</span>
             <br></br>
-            <br></br>
             <img src={holdhands} className="hold-bullet" alt="holdhands" />
             <span>9,000 children healthy and nourished</span>
-            <br></br>
-            <br></br>
             <hr></hr>
-            <br></br>
             <img src={money} className="money-bullet" alt="money" />
             <span>
               Make an education charity donation today and give a child the
               opportunity for a brighter future.
             </span>
+          </div>
+        </section>
+        <section>
+          <div className="cards-donation">
+            <div className="card">
+              <img src={boxmoney} />
+              <div className="card-content">
+                <h4>We Donate</h4>
+                <p>Vivamus in magna aclorm tellus fringilla eleifend sit</p>
+              </div>
+            </div>
+
+            <div className="card">
+              <img src={giveheart} />
+              <div className="card-content">
+                <h4>Monthly Gift</h4>
+                <p>Vivamus in magna aclorm tellus fringilla eleifend sit</p>
+              </div>
+            </div>
+
+            <div className="card">
+              <img src={givemoney} />
+              <div className="card-content">
+                <h4>Gift Catalog</h4>
+                <p>Vivamus in magna aclorm tellus fringilla eleifend sit</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={hat} />
+              <div className="card-content">
+                <h4>We Educate</h4>
+                <p>Vivamus in magna aclorm tellus fringilla eleifend sit</p>
+              </div>
+            </div>
           </div>
         </section>
       </>
